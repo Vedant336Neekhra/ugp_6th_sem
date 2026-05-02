@@ -1,0 +1,7 @@
+{
+  "normalizer": {
+    "type": "gaussian",
+    "std_value": 0.0008227539365179837
+  },
+  "crossnet": "MiniCrossNetVPE(d_model=64,heads=8,enc=3,cross=3,codeword=1024)"
+}

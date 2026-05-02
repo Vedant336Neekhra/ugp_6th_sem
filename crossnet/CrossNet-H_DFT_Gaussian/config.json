@@ -1,0 +1,25 @@
+{
+  "variant_name": "CrossNet-H_DFT_Gaussian",
+  "orientation": "H",
+  "transform_kind": "dft",
+  "normalization": "gaussian",
+  "train_path": "train_data.mat",
+  "val_path": "val_data.mat",
+  "test_path": "test_data.mat",
+  "batch_size": 128,
+  "num_workers": 0,
+  "stats_batch_size": 64,
+  "top_k_rows": 32,
+  "num_epochs": 1000,
+  "seed": 2025,
+  "learning_rate": 0.002,
+  "eta_min": 5e-05,
+  "weight_decay": 0.001,
+  "betas": [
+    0.8,
+    0.98
+  ],
+  "output_root": "outputs",
+  "stats_max_samples": null,
+  "device": "cuda"
+}

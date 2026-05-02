@@ -1,0 +1,9 @@
+{
+  "normalizer": {
+    "type": "gaussian",
+    "std_value": 0.0008227539365179837
+  },
+  "crossnet": "MiniCrossNetVPE(d_model=16,heads=2,enc=1,cross=1)",
+  "wrapper": "ResidualATNCrossNetAutoencoder",
+  "aux_loss_weight": 0.5
+}

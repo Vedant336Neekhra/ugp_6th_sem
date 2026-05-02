@@ -1,0 +1,6 @@
+{
+  "normalizer": {
+    "type": "gaussian",
+    "std_value": 0.0008227539365179837
+  }
+}
